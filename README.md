@@ -125,7 +125,7 @@ If you're done testing and want to clean up the resources, run:
 kubectl delete -f samples/bookinfo/platform/kube/bookinfo.yaml
 
 # Delete the Istio installation
-istioctl x uninstall --purge -y
+istioctl uninstall --purge y
 
 # Delete the EKS cluster
 eksctl delete cluster --name istio-test-cluster
